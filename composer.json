@@ -1,0 +1,34 @@
+{
+    "name": "dclouds/ddd",
+    "description": "Набор базовых объектов в рамках DDD",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "ramsey/uuid": "^4.7"
+    },
+    "require-dev": {
+        "phpstan/extension-installer": "^1.0",
+        "phpstan/phpstan": "^2.1",
+        "phpstan/phpstan-phpunit": "^2.0",
+        "phpunit/phpunit": "^12.0",
+        "symplify/easy-coding-standard": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dclouds\\Ddd\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Алексей Нечаев",
+            "email": "omfg.rus@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
